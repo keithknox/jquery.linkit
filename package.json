@@ -1,35 +1,25 @@
 {
-    "name": "linkIt",
-    "title": "LinkIt jQuery Plugin",
-    "description": "Simple plugin to convert any element into a link",
-    "keywords": [
-        "link",
-        "html",
-        "jquery-plugin"
-        "ecosystem:jquery"
-		"content"
-    ],
-    "version": "0.2.0",
-    "author": {
-        "name": "Keith Knox",
-        "url": "https://github.com/keithknox"
-    },
-    "maintainers": [
-        {
-            "name": "Keith Knox",
-            "email": "keithwknox@gmail.com",
-            "url": "https://github.com/keithknox/"
-        }
-    ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/keithknox/jquery.linkIt/LICENSE.txt"
-        }
-    ],
-    "homepage": "https://github.com/keithknox/jquery.linkIt",
-    "repository": "https://github.com/keithknox/jquery.linkIt",
-    "dependencies": {
-        "jquery": ">=1.9"
-    }
+  "name": "jquery.linkIt",
+  "version": "0.2.0",
+  "description": "Simple plugin to convert any element into a link",
+  "main": "jquery.linkit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithknox/jquery.linkIt.git"
+  },
+  "keywords": [
+    "link",
+    "html",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "content"
+  ],
+  "author": "Keith Knox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keithknox/jquery.linkIt/issues"
+  }
 }
