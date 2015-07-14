@@ -5,6 +5,8 @@
     "keywords": [
         "link",
         "html",
+        "jquery-plugin"
+        "ecosystem:jquery"
 		"content"
     ],
     "version": "0.2.0",
@@ -26,7 +28,7 @@
         }
     ],
     "homepage": "https://github.com/keithknox/jquery.linkIt",
-    "docs": "https://github.com/keithknox/jquery.linkIt",
+    "repository": "https://github.com/keithknox/jquery.linkIt",
     "dependencies": {
         "jquery": ">=1.9"
     }
