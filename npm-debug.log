@@ -51,31 +51,31 @@
 28 silly publish   bugs: { url: 'https://github.com/keithknox/jquery.linkIt/issues' },
 28 silly publish   readme: '#LinkIt jQuery Plugin#\r\n\r\n**LinkIt** is a simple jQuery plugin to attach links to elements\r\n\r\n##Version##\r\n0.2.0\r\n\r\n##Usage##\r\n    $(\'span\').linkIt({\r\n\t\thref: \'http://test.com\',\r\n\t\ttext: \'Click Me\',\r\n\t\ttarget: \'_blank\'\r\n\t});\r\n\r\n##Vendors##\r\njQuery - [http://jquery.com](http://jquery.com)\r\n\r\n##License##\r\nMIT License\r\n',
 28 silly publish   readmeFilename: 'README.md',
-28 silly publish   gitHead: 'fc41b609e6b5fdfc179856a14d29403b841aac99',
+28 silly publish   gitHead: 'e0e50115be4f17d25947e4c303299314637cdf42',
 28 silly publish   _id: 'jquery.linkIt@0.2.0',
-28 silly publish   _shasum: 'e1a42c79d71d27b6c9e8b7a624e6e9c56e6105a8',
+28 silly publish   _shasum: 'fb940d9bca08b27bc3836c10e1eb73811e39d6b5',
 28 silly publish   _from: '.' }
 29 verbose request where is /jquery.linkIt
 30 verbose request registry https://registry.npmjs.org/
-31 verbose request id c9e4d82e8ed35245
+31 verbose request id 4342b32f221cae07
 32 verbose url raw /jquery.linkIt
 33 verbose url resolving [ 'https://registry.npmjs.org/', './jquery.linkIt' ]
 34 verbose url resolved https://registry.npmjs.org/jquery.linkIt
 35 verbose request where is https://registry.npmjs.org/jquery.linkIt
-36 info trying registry request attempt 1 at 13:08:47
+36 info trying registry request attempt 1 at 13:14:30
 37 http PUT https://registry.npmjs.org/jquery.linkIt
 38 http 400 https://registry.npmjs.org/jquery.linkIt
 39 verbose headers { 'content-type': 'application/json',
 39 verbose headers   'cache-control': 'max-age=60',
 39 verbose headers   'content-length': '54',
 39 verbose headers   'accept-ranges': 'bytes',
-39 verbose headers   date: 'Tue, 14 Jul 2015 17:08:47 GMT',
+39 verbose headers   date: 'Tue, 14 Jul 2015 17:14:30 GMT',
 39 verbose headers   via: '1.1 varnish',
 39 verbose headers   connection: 'keep-alive',
-39 verbose headers   'x-served-by': 'cache-iad2140-IAD',
+39 verbose headers   'x-served-by': 'cache-iad2123-IAD',
 39 verbose headers   'x-cache': 'MISS',
 39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1436893727.150786,VS0,VE387' }
+39 verbose headers   'x-timer': 'S1436894070.528547,VS0,VE163' }
 40 error publish Failed PUT 400
 41 error Error: name can no longer contain capital letters : jquery.linkIt
 41 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:300:14)
@@ -93,7 +93,7 @@
 42 error     <http://github.com/npm/npm/issues>
 43 error System Linux 3.19.0-22-generic
 44 error command "/usr/bin/nodejs" "/usr/bin/npm" "publish"
-45 error cwd /home/keith/Documents/code_practice/Udemy/js_jquery_projects/linkit/jquery.linkIt
+45 error cwd /home/keith/Documents/code_practice/Udemy/js_jquery_projects/linkit/jquery.linkit
 46 error node -v v0.10.25
 47 error npm -v 1.4.21
 48 verbose exit [ 1, true ]
